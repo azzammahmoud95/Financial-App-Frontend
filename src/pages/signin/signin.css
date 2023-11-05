@@ -1,0 +1,17 @@
+.signInImage{
+    width: 50%;
+    
+}
+.signin-page{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width: 777px){
+	.signInImage{
+        display: none;
+    }
+}
